@@ -392,6 +392,11 @@ footer {
 }
 
 @media (max-width: 775px) {
+  .slideshow li:nth-child(1) span,
+  .slideshow li:nth-child(2) span,
+  .slideshow li:nth-child(3) span,
+  .slideshow li:nth-child(4) span,
+  .slideshow,
   .ss-overlay {
     background-attachment: scroll;
   }
