@@ -390,3 +390,9 @@ footer {
       font-size: 11px;
   }
 }
+
+@media (max-width: 775px) {
+  .ss-overlay {
+    background-attachment: scroll;
+  }
+}
