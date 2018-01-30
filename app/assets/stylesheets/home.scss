@@ -327,10 +327,10 @@ $animation-delay: 6s;
 
 // add and remove new slides here, maintaning the animation-delay format
 .slideshow li:nth-child(1) span { 
-  background-image: url(https://images.pexels.com/photos/225448/pexels-photo-225448.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/6067/coffee-flower-reading-magazine.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
 }
 .slideshow li:nth-child(2) span { 
-  background-image: url(https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c006c52fd09caf4e97536de8fcf5067&auto=format&fit=crop&w=1051&q=80);
+  background-image: url(https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
   @include animation-delay($animation-delay);
 }
 .slideshow li:nth-child(3) span { 
