@@ -9,7 +9,7 @@ $brown: #694E33;
 
 .contact-info {
 	li {
-		margin-bottom: 6%;
+		margin-bottom: 11px;
 
 		i {
 			margin-right: 3%;
@@ -97,5 +97,12 @@ $brown: #694E33;
 .hours {
 	li {
 		line-height: 12px;
+	}
+}
+
+@media (max-width: 890px) {
+	#contact .row {
+	    width: 100%;
+	    margin: 0px;
 	}
 }
