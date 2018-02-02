@@ -17,13 +17,13 @@ $brown: #694E33;
 	}
 
 	li {
-		margin-bottom: 4%;
+		margin-bottom: 40px;
 	}
 }
 
 .menu-options {
 	text-align: center;
-	margin: 0;
+	margin: 0 0 40px 0;
 
 	#coffee, 
 	#tea,
@@ -42,7 +42,7 @@ $brown: #694E33;
 }
 
 .active {
-	border-bottom: 1.5px solid $red;
+	// border-bottom: 1.5px solid $red;
 	color: $red;
 }
 
@@ -90,14 +90,14 @@ $brown: #694E33;
 
 @media (max-width: 930px) {
 	#menu {
-		width: 85%;
+		width: 90%;
 	}
 }
 
 @media (max-width: 475px) {
 	.menu-options #coffee, .menu-options #tea, .menu-options #pastries {
-	    margin: 0 2%;
-	    font-size: 25px;
+	    margin: 0 20px;
+	    font-size: 18.5px;
 	}
 
 	.menu-item {
@@ -110,5 +110,12 @@ $brown: #694E33;
 
     .menu-item-desc {
 	    font-size: 10px;
+	}
+}
+
+@media (max-height: 500px) {
+	#menu {
+		height: 160vh;
+		width: 90%;
 	}
 }

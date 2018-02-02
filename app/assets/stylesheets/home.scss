@@ -30,6 +30,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  box-shadow: 0px -20px 20px 20px rgba(0, 0, 0, 0.2);
 }
 
 nav ul li {
@@ -68,7 +69,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: $brown;
+  color: #000;
   text-decoration: none;
   height: 46px;
   padding: 20px 15px 0px 15px;
@@ -172,7 +173,7 @@ nav ul li a {
     border-color: $red;
     margin-bottom: 0;
     font-weight: 0;
-    padding: 25px 50px;
+    padding: 20px 47px;
   }
 
   a button:hover {
